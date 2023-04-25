@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkpout@v3
+      - uses: actions/checkout@v3
       
       - name: executando docker
-        run: docker run docker/whalesay cowsay
+        run: docker run docker/whalesay cowsay Rafael terminou o workflow, GRAÇAS A DEUS
         
       - name: Run a multi-line script
         run: 
